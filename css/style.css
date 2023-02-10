@@ -21,7 +21,8 @@ a{
 }
 
 .navbar-items  a{
-    color: black;
+    color: orange;
+
     margin: 1rem;
 }
 /* wraper end */
