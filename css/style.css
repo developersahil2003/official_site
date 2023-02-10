@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* wraper start */
+.wrapper-item1 {
+    padding: 2rem 4rem;
+}
+
+.navbar {
+    display: flex;
+    background-color: #ff4350;
+    justify-content: space-between;
+}
+
+.navbar-items  a{
+    color: black;
+    margin: 1rem;
+}
+/* wraper end */
+
+
+
+
+
+/* footer start */
+.footer {
+    padding: 2rem 10rem;
+    background-color: teal;
+}
+
+/* footer end */
