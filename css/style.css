@@ -57,6 +57,7 @@
 .cards-grp2 {
     display: flex;
     margin-top: 2rem;
+    color: yellow;
 }
 .app-icons img{
     height: 1.8rem;
