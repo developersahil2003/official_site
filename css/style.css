@@ -1,40 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
-a{
+.img-thumb {
+    height: 3em;
+    background-color: white;
+    width: 10rem;
+}
+
+.header {
+    margin-left: 10rem;
+}
+
+#navbarSupportedContent ul li {
+    margin: 0rem 1.5rem;
+}
+
+.d-flex a {
+    color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 
-/* wraper start */
-.wrapper-item1 {
-    padding: 2rem 4rem;
+.carousel-caption {
+    height: 20rem;
+    width: 26rem;
 }
 
-.navbar {
+.cards-grp {
     display: flex;
-    background-color: #ff4350;
-    justify-content: space-between;
+    margin-top: 3rem;
 }
-
-.navbar-items  a{
-    color: orange;
-
+.card{
     margin: 1rem;
 }
-/* wraper end */
-
-
-
-
-
-/* footer start */
-.footer {
-    padding: 2rem 10rem;
-    background-color: teal;
+.microsoft-store-templete {
+    margin:3rem 0rem 0rem 0rem;
+    background: url(/img/microsoft-store-img.webp);
+    height:28rem;
+    background-size:cover ;
+    width:100%;
+    color:white;
+    padding:10rem 4rem;
 }
-
-/* footer end */
+.microsoft-store-templete button{
+    height: 2.4rem;
+    width: 9rem;
+    padding:0px 0px 4px 0px;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    border:none;
+}
+.cards-grp2 {
+    display: flex;
+    margin-top: 2rem;
+}
+.app-icons img{
+    height: 1.8rem;
+    width: 2rem;
+    margin-left:0.5rem;
+}
+.icons-item{
+    display: flex;
+}
