@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+  }
+  .img-thumb {
+    height: 3em;
+    background-color: white;
+    width: 10rem;
+  }
+  
+  .navbar{
+    margin:0rem 2rem;
+  }
+  #navbarSupportedContent ul li {
+    margin: 0rem 1.5rem;
+  }
+  
+  .d-flex a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+   
+  
+  .main-form{
+    background:url(/img/cover.jpg);
+    height: 45rem;
+    background-repeat: no-repeat    ;
+    background-size: cover;
+    position:absolute;
+  }
+  .btns .btn_1{
+    background-color: #2184be;
+    padding-right:120px;
+    color:white;
+  }
+  .btns .btn_2{
+    padding-right:120px;
+    color:gray;
+  }
+  .btns .btn_3{
+    color:gray;
+  }
+  .btns{
+    font-size:17px;
+    margin:12rem 0rem 0rem 12rem;
+  }
+  .btns button{
+    height:4rem;
+    width:14rem;
+    border-radius: 5px;
+    border:none;
+    position: relative;
+  }
+
+
+
+
+
+
+  
+
+
+/*   
+.footer {
+    margin-top: 1rem;
+    display: flex;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    background-color: lightgray;
+  }
+  
+  .footer a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer h5 {
+    font-size: 15px;
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer_sec_1 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .footer_sec_2 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .footer_sec_3 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .footer_sec_4 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .footer_sec_5 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .footer_sec_6 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  #footer-position a {
+    margin-bottom: 1rem;
+  }
+  
+  .fixedbutton {
+    position: fixed;
+    top: 530px;
+    left: 89%;
+  }
+  .fixedbutton button{
+      background-color: blue;
+      height:4rem;
+      width: 8rem;
+      font-size: 18px;
+      color: #fff;
+      border:none;
+      border-radius:5px;
+  } /*  

@@ -1,279 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Micro Code</title>
-</head>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/all.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  <link rel="stylesheet" href="./css/changestyles.css" />
+  <link rel="stylesheet" href="css/all.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+    rel="stylesheet"
+  />
 
-<body>
-    <div class="container-fluid header" style="width:75rem;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <img src="img/microsoft-logo.png" class="img-thumb" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Windows</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Office</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Surface</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Xbox</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Support</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">More</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-4" type="search" aria-label="Search">
-                        <a href="">Login/</a>
-                        <a href="">Signup</a>
-                    </form>
-                </div>
-            </div>
-        </nav>
+  <body>
+    <div class="main">
 
-        <!-- carousel start -->
-        <div class="row">
-            <div class="col">
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"
-                            style="background-color: transparent;"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2" style="background-color: transparent;"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3" style="background-color: transparent;"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/carousel-img.jpg" class="d-block w-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Surface Book 1</h5>
-                                <p>Powerhouse Performance in the ultimate laptops. in the ultimate laptops</p>
-                                <button class="btn bg-light text-dark">SHOP NOW</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carousel-img.jpg" class="d-block w-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Surface Book 2</h5>
-                                <p>Powerhouse Performance in the ultimate laptops. in the ultimate laptops</p>
-                                <button class="btn bg-light text-dark">SHOP NOW</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carousel-img.jpg" class="d-block w-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Surface Book 3</h5>
-                                <p>Powerhouse Performance in the ultimate laptops. in the ultimate laptops</p>
-                                <button class="btn bg-light text-dark">SHOP NOW</button>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img src="img/microsoft-logo.png" class="img-thumb logo-img" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Windows</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Office</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Surface</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Xbox</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Support</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">More</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-4"
+                type="search"
+                aria-label="Search"
+              />
+              <a href="">Login/</a>
+              <a href="">Signup</a>
+            </form>
+          </div>
         </div>
+      </nav>
 
-        <!-- carousel end -->
-
-
-        <!-- cards start -->
-        <section class="cards-grp">
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_1.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Xbox One S</h5>
-                    <p class="card-text">
-                        The ultimate games and 4K entertainment system.</p>
-                    <a href="">LEARN MORE</a>
-                </div>
+      <!-- carousel start -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide car"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carousel-img.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_2.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Outlook</h5>
-                    <p class="card-text">
-                        The free email app for iOS, Android and Windows.
-                    </p>
-                    <a href="">DOWNLOAD NOW</a>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img//carousel-img.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_3.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Windows 10
-                    </h5>
-                    <p class="card-text">
-                        Learn more about 3D, Windows Mixed Reality and more.
-                    </p>
-                    <a href="">
-                        WINDOWS 10 FALL CREATORS UPDATE
-                    </a>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel-img.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_4.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">One Note</h5>
-                    <p class="card-text">
-                        Organise your notes and your life.
-                    </p>
-                    <a href="">
-                        DOWNLOAD ONENOTE
-                    </a>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
 
-        <!-- Microsoft cards finish -->
+      <!-- cards start -->
+      <section class="cards-grp">
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_1.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Xbox One S</h5>
+            <p class="card-text">
+              The ultimate games and 4K entertainment system.
+            </p>
+            <a href="">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_2.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Outlook</h5>
+            <p class="card-text">
+              The free email app for iOS, Android and Windows.
+            </p>
+            <a href="">DOWNLOAD NOW</a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_3.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Windows 10</h5>
+            <p class="card-text">
+              Learn more about 3D, Windows Mixed Reality and more.
+            </p>
+            <a href=""> WINDOWS 10 FALL  UPDATE </a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_4.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">One Note</h5>
+            <p class="card-text">Organise your notes and your life.</p>
+            <a href=""> DOWNLOAD ONENOTE </a>
+          </div>
+        </div>
+      </section>
 
+      <!-- Microsoft cards finish -->
 
+      <!-- Microsoft store pemplete start -->
 
-        <!-- Microsoft store pemplete start -->
-
-        <section class="microsoft-store-templete">
-            <div class="in-templete">
-                <h3>Microsoft Store</h3>
-                <p>
-                    Find the technology you need for home, school, work and fun
-                </p>
-                <button>Shop Now</button>
-            </div>
-        </section>
-
-        <!-- Microsoft store pemplete end -->
-
-        <!-- Microsoft store pemplete cards2 start -->
-
-        <section class="cards-grp2">
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_5.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Office 365 for Business
-                    </h5>
-                    <p class="card-text">
-
-                        Access your files anywhere, online or offline.
-                    </p>
-                    <a href="">
-                        LEARN MORE ABOUT OFFICE 365
-                    </a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_6.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Windows 10 Enterprise
-                    </h5>
-                    <p class="card-text">
-
-                        Download the free 90-day evaluation for IT professionals.
-                    </p>
-                    <a href="">DOWNLOAD NOW</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_7.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">
-
-                        Visual Studio 2017
-                    </h5>
-                    <p class="card-text">
-
-                        Productivity for any device, app and platform.
-                    </p>
-                    <a href="">
-
-                        DOWNLOAD VISUAL STUDIO 2017
-                    </a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/card_8.webp" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        Microsoft Azure
-                    </h5>
-                    <p class="card-text">
-                        Go serverless—build apps more quickly, without managing infrastructure.
-                    </p>
-                    <a href="">
-                        LEARN MORE
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Start icon family -->
-
-        <section class="icons-item">
-            <div>
-            Follow Microsoft
-            </div>
-            <div class="app-icons">
-                <img src="img/fb-logo.png" alt="">
-                <img src="img/twt-logo.png" alt="">
-                <img src="img/linkedin-logo.png" alt="">
-                <img src="img/Youtube-Icon.webp" alt="">
-            </div>
-        </section>
-
-        <!-- Finsih icon family -->
-
-
-        <!-- start footer -->
-
-
+      <section class="microsoft-store-template" >
+      <div style="background: url(/official_site/img/cover.webp);">
         
-        <!-- finish footer -->
+      </div>  
+      </section>
+
+      <!-- Microsoft store pemplete end -->
+
+      <!-- Microsoft store pemplete cards2 start -->
+
+      <section class="cards-grp">
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_5.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Office 365 for Business</h5>
+            <p class="card-text">
+              Access your files anywhere, online or offline.
+            </p>
+            <a href=""> LEARN MORE ABOUT OFFICE 365 </a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_6.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Windows 10 Enterprise</h5>
+            <p class="card-text">
+              Download the free 90-day evaluation for IT professionals.
+            </p>
+            <a href="">DOWNLOAD NOW</a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_7.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Visual Studio 2017</h5>
+            <p class="card-text">
+              Productivity for any device, app and platform.
+            </p>
+            <a href=""> DOWNLOAD VISUAL STUDIO 2017 </a>
+          </div>
+        </div>
+        <div class="card cardc" style="width: 18rem">
+          <img src="img/card_8.webp" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Microsoft Azure</h5>
+            <p class="card-text">
+              Go serverless—build apps more quickly, without managing
+              infrastructure.
+            </p>
+            <a href=""> LEARN MORE </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Start icon family -->
+
+      <section class="icons-item">
+        <div>  Follow Microsoft</div>
+        <div class="app-icons">
+          <img src="img/fb-logo.png" alt="" />
+          <img src="img/twt-logo.png" alt="" />
+          <img src="img/linkedin-logo.png" alt="" />
+          <img src="img/Youtube-Icon.webp" alt="" />
+        </div>
+      </section>
+
+      <!-- Finsih icon family -->
 
     </div>
+      <!-- start footer -->
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
+    
+      <section class="footer">
+        <div class="footer_sec" id="footer-position">
+          <h5>What's New</h5>
+          <a href="">Surface Pro</a><br />
+          <a href="">Windows 10 apps</a><br />
+          <a href="">Office apps</a><br />
+        </div>
+        <div class="footer_sec" id="footer-position">
+          <h5>Store and Support</h5>
+          <a href="">Account Profile</a>
+          <a href="">Download center</a>
+          <a href="">Sales and Support</a>
+          <a href="">Returns</a>
+          <a href="">Order Tracking</a>
+          <a href="">Support</a>
+        </div>
+        <div class="footer_sec" id="footer-position">
+          <h5>Education</h5>
+          <a href="">Microsoft in Education</a>
+          <a href="">Office for Students</a>
+          <a href="">Office 365 for Schools</a>
+          <a href="">Deals for Students and Parents</a>
+        </div>
+        <div class="footer_sec" id="footer-position">
+          <h5>Enterprise</h5>
+          <a href="">Microsoft Azure</a>
+          <a href="">Enterprise</a>
+          <a href="">Data Platform</a>
+          <a href="">Microsoft Partner Resources</a>
+          <a href="">Manufacturing & Resources </a>
+          <a href="">Finencial Services</a>
+        </div>
+        <div class="footer_sec" id="footer-position">
+          <h5>Devloper</h5>
+          <a href="">Microsoft Visual Studio</a>
+          <a href="">Developer Network</a>
+          <a href="">TechNet</a>
+          <a href="">Microsoft Virtual Academy</a>
+          <a href="">Channel 9 </a>
+          <a href="">Office Dev Center</a>
+        </div>
+        <div class="footer_sec" id="footer-position">
+          <h5>Company</h5>
+          <a href="">Carrers</a>
+          <a href="">About Microsoft</a>
+          <a href="">Company News</a>
+          <a href="">Privacy at Microsoft</a>
+          <a href="">Investors</a>
+          <a href="">Security</a>
+        </div>
+      </section>
+    
 
-</body>
+    <div class="fixedbutton">
+      <button>Send mes..</button>
+    </div>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
